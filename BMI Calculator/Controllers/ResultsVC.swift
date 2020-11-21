@@ -11,10 +11,20 @@ import UIKit
 class ResultsVC: UIViewController {
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
+    var bmiValue: String?
+    
+    
+    bmiLabel.text = bmiValue
+    @IBAction func recalculatePressed(_ sender: UIButton) {
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
